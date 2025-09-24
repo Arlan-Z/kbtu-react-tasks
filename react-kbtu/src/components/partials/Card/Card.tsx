@@ -7,8 +7,15 @@ export default function Card() {
         </h1>
 
         <div className="info-box">
-            <p><span className="info-title">Name:</span> John</p>
-            <p><span className="info-title">Surname:</span> Doe</p>
+            <div className="info">
+                <p className='info-title'>Name</p>
+                <p className='info-value'>John</p>
+            </div>
+
+            <div className="info">
+                <p className='info-title'>Surname</p>
+                <p className='info-value'>Doe</p>
+            </div>
         </div>
     </div>
 }
