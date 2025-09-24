@@ -1,0 +1,10 @@
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slider-card {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
