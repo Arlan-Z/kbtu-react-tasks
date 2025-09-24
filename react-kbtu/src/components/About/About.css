@@ -8,3 +8,21 @@
 .slider-card {
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 60px;
+  color: #C6AC8F;
+}
+
+.next-icon {
+  transform: rotate(-90deg);
+}
+
+.prev-icon {
+  transform: rotate(90deg);
+}

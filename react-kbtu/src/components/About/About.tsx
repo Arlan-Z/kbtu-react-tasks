@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./About.css";
 import type { CardProps } from './../../types/card';
 import Card from "./../partials/Card/Card";
+import ArrowIcon from "../../assets/arrow.svg";
 
 const cards: CardProps[] = [
   {
@@ -37,11 +38,11 @@ export default function About() {
 
   return (
     <div className="about-wrapper">
-      <button onClick={prev}>Prev</button>
+      <button onClick={prev}> <img src={ArrowIcon} alt="Prev" className="prev-icon"/></button>
       <div className="slider-card">
         <Card props = {cards[index]} />
       </div>
-      <button onClick={next}>Next</button>
+      <button onClick={next}> <img src={ArrowIcon} alt="Next" className="next-icon"/></button>
     </div>
   );
 }
