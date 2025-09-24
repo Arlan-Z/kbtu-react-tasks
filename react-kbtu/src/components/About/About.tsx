@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./About.css";
 import type { CardProps } from './../../types/card';
 import Card from "./../partials/Card/Card";
-import ArrowIcon from "../../assets/arrow.svg";
+import ArrowIcon from "../ArrowIcon";
 
 const cards: CardProps[] = [
   {
@@ -38,11 +38,11 @@ export default function About() {
 
   return (
     <div className="about-wrapper">
-      <button onClick={prev}> <img src={ArrowIcon} alt="Prev" className="prev-icon"/></button>
+      <button onClick={prev}> <ArrowIcon className="prev-icon"/> </button>
       <div className="slider-card">
         <Card props = {cards[index]} />
       </div>
-      <button onClick={next}> <img src={ArrowIcon} alt="Next" className="next-icon"/></button>
+      <button onClick={next}> <ArrowIcon className="next-icon"/></button>
     </div>
   );
 }

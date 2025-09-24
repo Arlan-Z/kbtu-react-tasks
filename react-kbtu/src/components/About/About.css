@@ -14,12 +14,13 @@ button {
   background-color: transparent;
 }
 
-img {
+svg {
   width: 60px;
   color: #C6AC8F;
 }
 
 .next-icon {
+
   transform: rotate(-90deg);
 }
 
