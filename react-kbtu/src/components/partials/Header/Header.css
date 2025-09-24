@@ -1,0 +1,9 @@
+.header-wrapper {
+    width: 100%;
+    background-color: #124559;
+    font-weight: bold;
+    color: #eff6e0;
+    padding: 20px 70px;
+    box-sizing: border-box;
+}
+
