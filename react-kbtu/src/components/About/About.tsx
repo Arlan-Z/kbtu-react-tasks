@@ -6,21 +6,43 @@ import ArrowIcon from "../ArrowIcon";
 
 const cards: CardProps[] = [
   {
-    title: "My Name",
+    title: "John Doe",
     fields: [
-      { title: "Fullname", value: "Arlan Zhumagulov" }
+      { title: "Position", value: "Junior Java Developer" },
+      { title: "Work Experience", value: "~1 year" },
+      { title: "Age", value: "19 years old" }
     ]
   },
   {
-    title: "My Hobby",
+    title: "Alice Smith",
     fields: [
-      { title: "Hobby", value: "Coding" }
+      { title: "Position", value: "Frontend Developer (React)" },
+      { title: "Work Experience", value: "2 years" },
+      { title: "Age", value: "24 years old" }
     ]
   },
   {
-    title: "My City",
+    title: "Michael Brown",
     fields: [
-      { title: "City", value: "Almaty" }
+      { title: "Position", value: "Backend Developer (Node.js)" },
+      { title: "Work Experience", value: "3 years" },
+      { title: "Age", value: "27 years old" }
+    ]
+  },
+  {
+    title: "Sophia Johnson",
+    fields: [
+      { title: "Position", value: "UI/UX Designer" },
+      { title: "Work Experience", value: "4 years" },
+      { title: "Age", value: "26 years old" }
+    ]
+  },
+  {
+    title: "Daniel Lee",
+    fields: [
+      { title: "Position", value: "DevOps Engineer" },
+      { title: "Work Experience", value: "5 years" },
+      { title: "Age", value: "30 years old" }
     ]
   }
 ];

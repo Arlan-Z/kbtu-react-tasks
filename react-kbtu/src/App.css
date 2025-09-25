@@ -5,3 +5,18 @@
   flex-direction: column;
   gap: 100px;
 }
+
+.falling {
+  z-index: -1;
+  position: absolute;
+  top: -100px;
+  width: 40px;  
+  opacity: 0.8;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg); 
+  }
+}
