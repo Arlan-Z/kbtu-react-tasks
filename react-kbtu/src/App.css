@@ -4,11 +4,12 @@
   justify-content: center;
   flex-direction: column;
   gap: 100px;
+  position: relative;
 }
 
 .falling {
   z-index: -1;
-  position: absolute;
+  position: fixed;
   top: -100px;
   width: 40px;  
   opacity: 0.8;
@@ -17,6 +18,6 @@
 
 @keyframes fall {
   to {
-    transform: translateY(110vh) rotate(360deg); 
+    transform: translateY(120vh) rotate(360deg); 
   }
 }
